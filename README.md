@@ -23,13 +23,25 @@ All data is sourced from [Pro-Football-Reference.com](https://www.pro-football-r
 
 - **Python Libraries**: base64, pandas, streamlit, numpy, matplotlib, seaborn, plotly
 
+## Setup
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/nfl-football-stats-app.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd nfl-football-stats-app
+    ```
+3. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+4. Run the Streamlit app:
+    ```sh
+    streamlit run src/app.py
+    ```
+
 ## Preview
 
 ![Preview](https://github.com/aarish22/nfl-football-stats-app/blob/main/Screenshot%202024-05-21%20151138.png)
-
-## Setup
-
-1. Clone the repository:  git clone https://github.com/your-username/nfl-football-stats-app.git
-3. Install the required dependencies:  pip install -r requirements.txt
-5. Run the Streamlit app:  streamlit run nfl_rushing_stats.py
-
